@@ -1,6 +1,13 @@
 Docker StatsD InfluxDB Grafana image
 -----------------------------------
 
+## v2.4.0 (2020-07-26)
+* Upgraded Telegraf to version 1.15.1
+* Upgraded InfluxDB to version 1.8.1
+* Upgraded Grafana to version 7.1.1
+* Upgraded Chronograf to version 1.8.5
+* Updated Docker image to Ubuntu 20.04 LTS
+
 ## v2.3.0 (2019-03-25)
 * Upgraded Telegraf to version 1.9.4-1
 * Upgraded InfluxDB to version 1.7.3

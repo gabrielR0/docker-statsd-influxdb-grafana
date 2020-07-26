@@ -8,11 +8,11 @@
 
 ### Warning, breaking change: upgrade from version 1.0.x of this image is not supported, all persisted data in volumes will be lost if you delete the container.
 
-* Docker Image:      2.3.0
-* Ubuntu:            18.04
-* InfluxDB:          1.7.10
-* Telegraf (StatsD): 1.13.3-1
-* Grafana:           6.6.2
+* Docker Image:      2.4.0
+* Ubuntu:            20.04
+* InfluxDB:          1.8.1
+* Telegraf (StatsD): 1.15.1
+* Grafana:           7.1.1
 
 ## Quick Start
 
@@ -26,7 +26,7 @@ docker run --ulimit nofile=66000:66000 \
   -p 3004:8888 \
   -p 8086:8086 \
   -p 8125:8125/udp \
-  samuelebistoletti/docker-statsd-influxdb-grafana:latest
+  gabi/docker-statsd-influxdb-grafana:latest
 ```
 
 You can replace `latest` with the desired version listed in changelog file.
