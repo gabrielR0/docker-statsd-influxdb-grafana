@@ -11,7 +11,7 @@
 * Docker Image:      2.4.0
 * Ubuntu:            20.04
 * InfluxDB:          1.8.1
-* Telegraf (StatsD): 1.15.1
+* Telegraf (StatsD): 1.15.1-1
 * Grafana:           7.1.1
 
 ## Quick Start
